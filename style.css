@@ -9,24 +9,209 @@ h3, h1{
 p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-header{
+.df{
     display: flex;
+}
+.jcsb{
     justify-content: space-between;
-    align-content:flex-start;
+}
+.pad-40{
     padding: 40px;
+}
+.m-10{
     margin: 10px;
 }
-header h3{
+.m-b-30{
+    margin-bottom: 30px;
+}
+.m-15{
+    margin: 15px;
+}
+.m-25{
+    margin: 25px;
+}
+.m-30{
+    margin: 30px;
+}
+.col-BBBBBB{
     color: #BBBBBB;
+}
+.col-wh{
+    color: white;
+}
+.col-AE{
+    color: #AEAEAE;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-23{
+    font-size: 23px;
+}
+.fs-30{
     font-size: 30px;
 }
-.burger{
+.fs-35{
+    font-size: 35px;
+}
+.fs-45{
+    font-size: 45px;
+}
+.fs-50{
+    font-size: 50px;
+}
+.fs-120{
+    font-size: 120px;
+}
+.h-3{
     height: 3px;
+}
+.w-30{
     width: 30px;
+}
+.t-18{
     top: 18px;
+}
+.bckb{
     background-color: black;
+}
+.bcwh{
+    background-color: white;
+}
+.bcF1{
+    background-color: #F1F1F1;
+}
+.bcACD{
+    background-color: #ACD4C0;
+}
+.p-r{
     position: relative;
 }
+.f-bgimg{
+    background-image: url("https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/3:2/w_4299,h_2866,c_limit/BlackForest-Germany-GettyImages-147180370.jpg");
+}
+.p-img{
+    background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/a34a56c0783e5acca70145b0/trtrrt-min.jpg");
+}
+.h-800{
+    height: 800px;
+}
+.bgp-c{
+    background-position: center;
+}
+.fd-c{
+    flex-direction: column;
+}
+.fd-r{
+    flex-direction: row;
+}
+.jc-c{
+    justify-content: center;
+}
+.ai-c{
+    align-items: center;
+}
+.wid-200{
+    width: 200px;
+}
+.wid-300{
+    width: 300px;
+}
+.wid-400{
+    width: 400px;
+}
+.wid-800{
+    width: 800px;
+}
+.wid-80{
+    width: 80px;
+}
+.hei-200{
+    height: 200px;
+}
+.hei-50{
+    height: 50px;
+}
+.br-50pr{
+    border-radius: 50%;
+}
+.br-30px{
+    border-radius: 30px;
+}
+.bpr-nr{
+    background-repeat: no-repeat;
+}
+.bgs-c{
+    background-size: cover;
+}
+.ta-c{
+    text-align: center;
+}
+.ls-0{
+    letter-spacing: 0;
+}
+.ls-1{
+    letter-spacing: 1;
+}
+.bor-1-tr{
+    border: 1px transparent;
+}
+.bor-1-sol{
+    border: 1px black solid;
+}
+.hei-450{
+    height: 450px;
+}
+.wid-fc{
+    width: fit-content;
+}
+.pad-10{
+    padding: 10px;
+}
+.hei-553{
+    height: 533px;
+}
+.hei-30{
+    height: 30px;
+}
+.br-20px{
+    border-radius: 20px;
+}
+.dg{
+    display: grid;
+}
+.gtc-1fr-1fr{
+    grid-template-columns: 1fr 1fr;
+}
+.hei-150{
+    height: 150px;
+}
+.g-40{
+    gap: 40px;
+}
+.wid-650{
+    width: 650px;
+}
+.bcg{
+    background-color: #84C0A0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .burger::after{
     content: '';
     position: absolute;
@@ -43,113 +228,23 @@ header h3{
     background-color: black;
     top: -8px;
 }
-.forest{
-   background-image: url("https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/3:2/w_4299,h_2866,c_limit/BlackForest-Germany-GettyImages-147180370.jpg"); 
-   height: 800px;
-   background-position: center;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   color: white;
+.confirm::after{
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 1px;
+    top: 10.5px;
+    right: -13px;
+    transform: rotate(-45deg);
+    background-color: black;
 }
-.circule{
-  margin: 15px;
-  width: 200px;
-  height: 200px;
-  background-color: #ACD4C0;
-  border-radius: 50%;
-}
-.forest p{
-    margin: 15px;
-    font-size: 35px;
-}
-.forest h1{
-    font-size: 120px;
-}
-.biosec{
-    background-color: #F1F1F1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 40px;
-}
-.biosec h3{
-    margin: 25px;
-    font-size: 45px;
-}
-.biosec p{
-    letter-spacing: 0px;
-    font-size: 18px;
-    margin: 25px;
-    color: #AEAEAE;
-    width: 800px;
-}
-.biosec button{
-    color: white;
-    background-color: #ACD4C0;
-    border: 1px transparent;
-    font-size: 20px;
-    width: 200px;
-    height: 50px;
-    border-radius: 30px;
-}
-.moreinfo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.text{
-    text-align: justify;
-}
-.moreinfo h3{
-    margin: 10px;
-    letter-spacing: 1px;
-    font-size: 23px;
-}
-.moreinfo p{
-    margin: 10px;
-    color: #AEAEAE;
-    width: 300px;
-    margin-bottom: 30px;
-}
-.info{
-    margin: 30px;
-}
-.img{
-    margin: 10px;
-    background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/a34a56c0783e5acca70145b0/trtrrt-min.jpg");
-    height: 450px;
-    width: 400px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.card{
-    background-color: #F1F1F1;
-    width: fit-content;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    height: 533px;
-}
-.card h1{
-    padding: 10px;
-    width: 400px;
-    font-size: 50px;
-}
-.card button{
-    color: white;
-    background-color: #ACD4C0;
-    border: 1px transparent;
-    font-size: 20px;
-    width: 200px;
-    height: 50px;
-    border-radius: 30px;
+.confirm::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    top: 12px;
+    right: 6px;
+    transform: rotate(-133deg);
+    background-color: black;
 }
